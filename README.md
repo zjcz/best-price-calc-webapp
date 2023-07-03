@@ -1,47 +1,45 @@
-# Getting Started with Create React App
+# Best Price Calculator
+The Best Price Calculator is a Progressive Web App (PWA) built with React and Typescript. It allows users to compare the prices of different items based on the price per unit. By entering the price and the number of units per pack, users can easily identify the best value item and make informed purchasing decisions.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+* Calculate the price per unit of different items.
+* Compare the prices of multiple items.
+* Identify the best value item based on price per unit.
+* User-friendly interface for easy data input and comparison.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+If you want to run the Best Price Calculator app locally or contribute to its development, follow the steps below:
 
-### `npm start`
+1. Clone the repository: `git clone https://github.com/zjcz/best-price-calc-webapp`
+2. Navigate to the project directory: `cd best-price-calc-webapp`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit http://localhost:3000 to see the app running.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage
+1. Open the Best Price Calculator app.
+2. On the main screen, tap the '+' icon on the menu bar to add a new item.
+3. Enter the relevant information for each item you want to compare.
+4. As you enter the data, the app will calculate the price per unit for each item and display it.
+5. The item with the lowest price per unit will be highlighted as the best value item.  The items will be listed in order of value, with the best value at the top of the list.
+6. You can add, edit or remove items as needed.
+7. Adjust the input values as necessary, and the app will update the calculations and highlight the best value item accordingly.
+8. You can reset all the inputs by clicking on the "Clear all items" button.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
+The Best Price Calculator app is built using the following technologies:
 
-### `npm test`
+* React: JavaScript library for building user interfaces.
+* Typescript: Typed superset of JavaScript for enhanced development.
+* Material-UI: UI component library for React.
+* Progressive Web App (PWA): Allows the app to be installed on compatible devices.
+* React Testing Library: Testing utility for testing React components.
+* Create React App: Utility for creating React apps with no build configuration.
+* Git: Version control system for managing the project's source code.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Progressive Web App (PWA)
+The Best Price Calculator can be installed as a Progressive Web App (PWA) on compatible devices. The steps to do this will vary depending on your browser and Operating System.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# best-price-calc-webapp
+## License
+The Best Price Calculator app is open-source and released under the MIT License.
