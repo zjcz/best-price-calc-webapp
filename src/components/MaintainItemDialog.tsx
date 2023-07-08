@@ -66,16 +66,15 @@ export default function MaintainItemDialog(props: MaintainItemDialogProp) {
    */
   useEffect(() => {
     if (props.mode !== MaintainItemDialogMode.Hidden) {
-      const newState: ItemStateData = Object.create(currentState);
-    
-      // validate
-      newState.itemIdentifier = props.item?.identifier ?? "";
-      newState.description = props.item?.description ?? "";
-      newState.size = props.item?.numberOfUnits.toString() ?? "";
-      newState.cost = props.item?.totalCost.toString() ?? "";
-      newState.descriptionError = false;
-      newState.sizeError = false;
-      newState.costError = false;
+      const newState: ItemStateData = {
+        itemIdentifier: props.item?.identifier ?? "",
+        description: props.item?.description ?? "",
+        size: props.item?.numberOfUnits.toString() ?? "",
+        cost: props.item?.totalCost.toString() ?? "",
+        descriptionError: false,        
+        sizeError: false,
+        costError: false,
+      }
       setCurrentState(newState);        
     }
   }, [props]);
