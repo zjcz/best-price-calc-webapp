@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/best-price-calc/static/css/main.073c9b0a.css",
+    "main.js": "/best-price-calc/static/js/main.e3d5bdc4.js",
+    "static/js/787.fea4595c.chunk.js": "/best-price-calc/static/js/787.fea4595c.chunk.js",
+    "index.html": "/best-price-calc/index.html",
+    "main.073c9b0a.css.map": "/best-price-calc/static/css/main.073c9b0a.css.map",
+    "main.e3d5bdc4.js.map": "/best-price-calc/static/js/main.e3d5bdc4.js.map",
+    "787.fea4595c.chunk.js.map": "/best-price-calc/static/js/787.fea4595c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e3d5bdc4.js"
+  ]
+}
