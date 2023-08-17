@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/best-price-calc-webapp/static/css/main.073c9b0a.css",
-    "main.js": "/best-price-calc-webapp/static/js/main.35aea403.js",
+    "main.js": "/best-price-calc-webapp/static/js/main.8869aba4.js",
     "static/js/787.fea4595c.chunk.js": "/best-price-calc-webapp/static/js/787.fea4595c.chunk.js",
     "index.html": "/best-price-calc-webapp/index.html",
     "main.073c9b0a.css.map": "/best-price-calc-webapp/static/css/main.073c9b0a.css.map",
-    "main.35aea403.js.map": "/best-price-calc-webapp/static/js/main.35aea403.js.map",
+    "main.8869aba4.js.map": "/best-price-calc-webapp/static/js/main.8869aba4.js.map",
     "787.fea4595c.chunk.js.map": "/best-price-calc-webapp/static/js/787.fea4595c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.35aea403.js"
+    "static/js/main.8869aba4.js"
   ]
 }
